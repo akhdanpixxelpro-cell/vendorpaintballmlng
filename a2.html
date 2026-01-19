@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Strategi Jitu Menang Paintball - Combat Malang</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #4b5320; /* Hijau Army untuk Header */
+            --accent-color: #ff6600; 
+            --navy-footer: #0a192f;
+        }
+
+        body { font-family: 'Roboto', sans-serif; background-color: #f9f9f9; }
+        
+        /* Navbar Konsisten */
+        .navbar { background-color: var(--primary-color); }
+        .navbar-brand { font-family: 'Anton', sans-serif; letter-spacing: 1px; }
+
+        /* Styles Khusus Artikel */
+        .article-container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .article-meta { color: #6c757d; font-size: 0.9rem; margin-bottom: 20px; }
+        
+        /* Table of Content */
+        .toc-box {
+            background-color: #f1f3f5;
+            border-left: 5px solid var(--accent-color);
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        .toc-btn {
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        /* Baca Juga Box */
+        .read-also {
+            border: 1px solid #ddd;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        /* Quote */
+        blockquote {
+            font-size: 1.25rem;
+            font-style: italic;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 20px;
+            margin: 30px 0;
+            color: #555;
+            background: #fff8f0;
+            padding: 20px;
+        }
+
+        /* Images & Caption */
+        figure { margin-bottom: 30px; }
+        figure img { width: 100%; border-radius: 5px; }
+        figcaption {
+            font-size: 0.85rem;
+            color: #666;
+            text-align: center;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* Author Box */
+        .author-box {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .author-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        /* Floating Buttons */
+        .floating-wa {
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: 0.3s;
+        }
+        .floating-wa:hover { transform: scale(1.1); color: white; }
+
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 90px; /* Sebelah WA */
+            background-color: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: none; /* Hidden by default */
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 999;
+            cursor: pointer;
+            border: none;
+        }
+
+        /* Responsive Fix */
+        @media (max-width: 768px) {
+            .article-container { padding: 20px; }
+            .scroll-top { bottom: 100px; right: 20px; } /* Geser ke atas WA di HP */
+        }
+        /* ============================= */
+/* FIX TOTAL MOBILE GOYANG */
+/* ============================= */
+
+/* Anti horizontal scroll global */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Wajib untuk Bootstrap */
+* {
+    box-sizing: border-box;
+}
+
+/* Container & row Bootstrap */
+.container,
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Fixed navbar compensation */
+body {
+    padding-top: 70px;
+}
+
+/* Gambar & figure aman */
+img,
+figure {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Floating buttons (biang goyang) */
+.floating-wa {
+    right: 16px;
+}
+
+.scroll-top {
+    right: 16px;
+}
+
+/* TOC & link panjang */
+.toc-box a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* ============================= */
+/* MOBILE ONLY */
+/* ============================= */
+@media (max-width: 768px) {
+    body {
+        padding-top: 64px;
+    }
+
+    .article-container {
+        padding: 20px;
+    }
+
+    .floating-wa,
+    .scroll-top {
+        right: 12px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="bi bi-crosshair"></i> Combat Malang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Paket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-cta btn-sm ms-lg-3">Booking Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            
+            <article class="article-container">
+                
+                <h1 class="fw-bold mb-3">Manfaat Outbound Bagi Perusahaan: Investasi Nyata untuk Kinerja Tim</h1>
+                <div class="article-meta">
+                    <i class="bi bi-person"></i> Admin Outbound &nbsp;|&nbsp;
+                    <i class="bi bi-calendar"></i> 19 Januari 2026 &nbsp;|&nbsp;
+                    <i class="bi bi-tag"></i> HR & Team Building
+                </div>
+
+                <figure>
+                    <img src="img/Slide1 (1).webp" alt="Outbound Perusahaan" class="img-fluid">
+                    <figcaption>Kegiatan outbound dirancang untuk membangun kolaborasi dan kepercayaan antar karyawan.</figcaption>
+                </figure>
+
+                <div class="toc-box">
+                    <button class="toc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#tocContent" aria-expanded="false">
+                        <span><i class="bi bi-list-ul"></i> Daftar Isi Artikel</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <div class="collapse mt-3" id="tocContent">
+                        <ul class="mb-0">
+                            <li><a href="#solid">Membangun Tim yang Solid</a></li>
+                            <li><a href="#komunikasi">Meningkatkan Komunikasi Internal</a></li>
+                            <li><a href="#leadership">Melatih Jiwa Kepemimpinan</a></li>
+                            <li><a href="#produktivitas">Dampak terhadap Produktivitas</a></li>
+                            <li><a href="#faq-section">Pertanyaan Umum (FAQ)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="lead">Outbound perusahaan bukan sekadar acara rekreasi. Jika dirancang dengan benar, outbound menjadi strategi pengembangan SDM yang efektif untuk meningkatkan kinerja tim, loyalitas karyawan, dan budaya kerja positif.</p>
+
+                <h2 id="solid" class="mt-4">1. Membangun Tim yang Solid</h2>
+                <p>Melalui permainan berbasis kerjasama, karyawan belajar saling percaya, memahami peran masing-masing, dan menyadari bahwa tujuan besar hanya bisa dicapai melalui kolaborasi.</p>
+
+                <div class="read-also">
+                    <strong>Baca Juga:</strong> <a href="#" class="text-decoration-none">Contoh Games Outbound untuk Team Building Perusahaan</a>
+                </div>
+
+                <h2 id="komunikasi" class="mt-4">2. Meningkatkan Komunikasi Internal</h2>
+                <p>Banyak konflik di kantor berawal dari miskomunikasi. Outbound memaksa peserta untuk berkomunikasi secara efektif di bawah tekanan, sehingga pola komunikasi positif terbawa ke lingkungan kerja.</p>
+
+                <blockquote>
+                    "Tim yang kuat bukan tim tanpa masalah, tetapi tim yang mampu berkomunikasi dan menyelesaikan masalah bersama."
+                </blockquote>
+
+                <figure>
+                    <img src="img/vendor1.webp" alt="Komunikasi Tim" class="img-fluid">
+                    <figcaption>Simulasi outbound mendorong komunikasi dua arah yang sehat.</figcaption>
+                </figure>
+
+                <h2 id="leadership" class="mt-4">3. Melatih Jiwa Kepemimpinan</h2>
+                <p>Outbound membantu perusahaan mengidentifikasi potensi leader. Dalam situasi lapangan, akan terlihat siapa yang mampu mengambil keputusan, mengatur strategi, dan menjaga moral tim.</p>
+
+                <h2 id="produktivitas" class="mt-4">4. Meningkatkan Produktivitas & Loyalitas</h2>
+                <p>Karyawan yang merasa dihargai melalui kegiatan pengembangan diri cenderung lebih loyal dan termotivasi. Dampaknya adalah peningkatan produktivitas dan penurunan turnover karyawan.</p>
+
+                <hr class="my-5">
+
+                <div id="faq-section">
+                    <h3 class="mb-3"><i class="bi bi-question-circle"></i> Pertanyaan Sering Diajukan (FAQ)</h3>
+                    <div class="accordion" id="accordionArticle">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Apakah outbound cocok untuk semua jenis perusahaan?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionArticle">
+                                <div class="accordion-body">
+                                    Ya. Mulai dari startup, UMKM, hingga korporasi besar dapat menyesuaikan konsep outbound sesuai kebutuhan dan budaya perusahaan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Berapa kali outbound sebaiknya dilakukan?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionArticle">
+                                <div class="accordion-body">
+                                    Idealnya 1–2 kali dalam setahun, terutama setelah periode kerja intens atau saat membangun tim baru.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="author-box">
+                    <img src="https://placehold.co/100x100/333/white?text=Admin" alt="Penulis" class="author-img">
+                    <div>
+                        <h5 class="mb-1">Ditulis oleh: Andi Pratama</h5>
+                        <p class="small text-muted mb-2">Konsultan HR & Outbound Trainer</p>
+                        <p class="mb-0 small">Berpengalaman lebih dari 10 tahun menangani program outbound dan pengembangan SDM perusahaan.</p>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-center">
+                    <p class="fw-bold mb-2">Bagikan artikel ini:</p>
+                    <a href="https://wa.me/?text=Manfaat%20Outbound%20Bagi%20Perusahaan%20yang%20Wajib%20Diketahui" target="_blank" class="btn btn-success me-2 btn-sm">
+                        <i class="bi bi-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="#" target="_blank" class="btn btn-primary me-2 btn-sm">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <a href="#" target="_blank" class="btn btn-dark btn-sm">
+                        <i class="bi bi-twitter-x"></i> Twitter/X
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <div class="row mt-5">
+            <div class="col-12"><h3 class="mb-4 text-center fw-bold">Artikel Terkait Lainnya</h3></div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/Slide1 (1).webp" class="card-img-top" alt="Related 1">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="a2.html" class="text-decoration-none text-dark">Manfaat Outbound untuk Karyawan</a></h5>
+                        <p class="card-text small text-muted">Meningkatkan produktivitas kerja lewat game seru.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/vendor4.webp" class="card-img-top" alt="Related 2">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="a3.html" class="text-decoration-none text-dark">Lokasi Wisata Dekat Arena</a></h5>
+                        <p class="card-text small text-muted">Google mask, body vest, dan fungsi vitalnya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="img/vendor5.webp" class="card-img-top" alt="Related 3">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#" class="text-decoration-none text-dark">5 Strategi Menang Paintball</a></h5>
+                        <p class="card-text small text-muted">Sensasi perang gerilya di tengah hutan alami.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer style="background-color: var(--navy-footer); color: #ffffff; padding-top: 60px; padding-bottom: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h4 style="color: #64ffda;">Combat Malang</h4>
+                    <p class="small" style="color: #a8b2d1;">Penyedia layanan paintball dan outbound terdepan di Malang Raya.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light">Tentang Kami</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light">Layanan</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase mb-3">Jam Buka</h5>
+                    <p class="small" style="color: #a8b2d1;">Senin-Minggu: 08.00 - 17.00 WIB</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase mb-3">Hubungi Kami</h5>
+                    <ul class="list-unstyled small" style="color: #a8b2d1;">
+                        <li class="mb-2"><i class="bi bi-whatsapp"></i> 0812-3456-7890</li>
+                        <li class="mb-2"><i class="bi bi-instagram"></i> @combatmalang</li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border-color: #a8b2d1; opacity: 0.3;">
+            <div class="text-center small" style="color: #8892b0;">&copy; 2026 Combat Malang. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" class="scroll-top" title="Kembali ke Atas">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <a href="https://wa.me/628123456789?text=Halo%20Combat%20Malang,%20saya%20tertarik%20booking" target="_blank" class="floating-wa" title="Chat WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Ambil tombol
+        let mybutton = document.getElementById("myBtn");
+
+        // Ketika user scroll ke bawah 20px, munculkan tombol
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "flex";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // Ketika tombol diklik, scroll ke atas
+        function topFunction() {
+            document.body.scrollTop = 0; // Untuk Safari
+            document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE dan Opera
+        }
+    </script>
+</body>
+</html>
