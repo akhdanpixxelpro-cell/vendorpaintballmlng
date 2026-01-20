@@ -351,31 +351,112 @@
         </div>
     </section>
 
-    <section id="gallery" class="bg-light">
-        <div class="container">
-            <h2 class="section-title">Galeri Pertempuran</h2>
-            <div class="row">
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor1.webp" class="gallery-img" alt="Gallery">
-                </div>
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor2.webp" class="gallery-img" alt="Gallery">
-                </div>
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor3.webp" class="gallery-img" alt="Gallery">
-                </div>
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor4.webp" class="gallery-img" alt="Gallery">
-                </div>
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor5.webp" class="gallery-img" alt="Gallery">
-                </div>
-                <div class="col-md-4 col-6">
-                    <img src="img/vendor6.webp" class="gallery-img" alt="Gallery">
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="gallery" class="bg-light" aria-labelledby="gallery-title">
+  <div class="container">
+    <h2 id="gallery-title" class="section-title">
+      Galeri Pertempuran
+    </h2>
+
+    <div class="row g-3">
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor1.webp"
+          srcset="
+            img/vendor1.webp 300w,
+            img/vendor1.webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Aktivitas paintball tim merah">
+      </div>
+
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor2.webp"
+          srcset="
+            img/vendor2.webp 300w,
+            img/vendor2.webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Simulasi pertempuran paintball di arena">
+      </div>
+
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor3.webp"
+          srcset="
+            img/vendor3.webp 300w,
+            img/vendor3.webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Peserta paintball berlindung di balik rintangan">
+      </div>
+
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor4.webp"
+          srcset="
+            img/vendor4.webp 300w,
+            img/vendor4.webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Arena paintball outdoor dengan rintangan">
+      </div>
+
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor5.webp"
+          srcset="
+            img/vendor5.webp 300w,
+            img/vendor5.webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Tim paintball melakukan briefing sebelum permainan">
+      </div>
+
+      <div class="col-md-4 col-6">
+        <img
+          src="img/vendor6.webp"
+          srcset="
+            img/vendor6.webp 300w,
+            img/vendor6webp 600w
+          "
+          sizes="(max-width: 768px) 50vw, 33vw"
+          width="300"
+          height="169"
+          loading="lazy"
+          decoding="async"
+          class="gallery-img img-fluid rounded"
+          alt="Momen kemenangan tim paintball">
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <section id="testimonials">
         <div class="container">
