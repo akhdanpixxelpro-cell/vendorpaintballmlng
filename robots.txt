@@ -1,21 +1,19 @@
-# Berikan akses penuh ke semua crawler
+# Sitemaps
+Sitemap: https://vendorpaintballmlng.vercel.app/sitemap.xml
+
+# Aturan umum untuk semua bot
 User-agent: *
+Allow: /
 
-# Blokir akses ke folder sistem atau file konfigurasi (standar Vercel/Next.js)
+# Melindungi folder sistem/internal (Opsional, tergantung struktur folder Anda)
 Disallow: /_next/
+Disallow: /static/
 Disallow: /api/
-Disallow: /public/
 
-# Blokir file privat yang mungkin terunggah
-Disallow: .env
-Disallow: .git
-
-# Blokir parameter pencarian atau filter agar tidak dianggap konten duplikat (opsional)
+# Mencegah crawling pada parameter pencarian (agar tidak terjadi duplicate content)
 Disallow: /*?
 Disallow: /*&
 
-# Izinkan crawler untuk mengakses folder gambar/aset
-Allow: /_next/static/
-
-# Tentukan lokasi Sitemap untuk memudahkan indeksasi
-Sitemap: https://vendorpaintballmlng.vercel.app/sitemap.xml
+# Spesifik untuk Googlebot (opsional, untuk optimasi lebih lanjut)
+User-agent: Googlebot
+Allow: /
