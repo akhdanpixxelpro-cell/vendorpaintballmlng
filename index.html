@@ -243,9 +243,24 @@
     <section id="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="img/Slide1 (1).webp" class="img-fluid rounded shadow" alt="Tentang Combat Malang">
-                </div>
+               <div class="col-md-6 mb-4 mb-md-0">
+    <img 
+        src="img/Slide1 (1).webp"
+        srcset="
+            img/slide (1).webp 400w,
+            img/slide1 (1).webp 600w,
+            img/slide1 (1).webp 800w
+        "
+        sizes="(max-width: 768px) 100vw, 50vw"
+        width="600"
+        height="400"
+        class="img-fluid rounded shadow"
+        alt="Tentang Combat Malang"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+    >
+</div>
                 <div class="col-md-6">
                     <h2 class="mb-3">Mengapa Memilih Combat Malang?</h2>
                     <p>Kami adalah penyedia layanan Paintball dan Outbound terpercaya di Malang Raya sejak 2015. Dengan peralatan standar keamanan internasional dan instruktur berpengalaman, kami menjamin pengalaman bermain yang aman, seru, dan tak terlupakan.</p>
