@@ -1,0 +1,19 @@
+# User-agent: * berarti aturan ini berlaku untuk semua mesin pencari (Google, Bing, DuckDuckGo, dll)
+User-agent: *
+
+# Izinkan semua konten publik untuk dirayapi
+Allow: /
+
+# Blokir folder atau parameter yang tidak perlu diindeks (umum pada aplikasi Vercel/Next.js)
+Disallow: /_next/
+Disallow: /static/
+Disallow: /api/
+Disallow: /private/
+
+# Blokir URL dengan parameter pencarian atau filter agar tidak terjadi duplikasi konten
+Disallow: /*?
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Lokasi Sitemap (Ganti URL sitemap jika Anda memiliki nama file yang berbeda)
+Sitemap: https://vendorpaintballmlng.vercel.app/sitemap.xml
